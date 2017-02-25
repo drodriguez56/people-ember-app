@@ -20,8 +20,8 @@ You will need the following things properly installed on your computer.
 * `bower install`
 
 ## Running / Development
-
-* `ember serve`
+* make sure you have started your rails api (https://github.com/drodriguez56/people-api-rails) and is active in your localhost:3000 port
+* `ember server`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 
 ### Code Generators
