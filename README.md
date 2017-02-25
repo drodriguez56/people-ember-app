@@ -2,6 +2,11 @@
 
 This is a basic ember app that comunicates to a rails api backend to create and delete records on a postgresql database
 
+## ToDo
+* Dont use inline css, extract css to app.css file.
+* Filter deleted records on client, The rails app is setup to be able to return all records from the database included deleted records. I need to setup a filter on the ember client to fielter them. (I have tried diferent ways but till no luck)
+* dont render home template in /people route
+
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
