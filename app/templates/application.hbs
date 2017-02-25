@@ -1,3 +1,11 @@
-<h1>Home</h1>
+<div style="width: 60%; margin: 0 auto; text-align:center">
+  <h1>The People App</h1>
 
-{{outlet}}
+  {{outlet}}
+  <div>
+  <p>Hi, this is the People app, a simple ember app that connects with a rails API where yoou can create and delete a person record</p>
+  {{#link-to 'people'}}
+    {{#paper-button raised=true primary=true}}Go to People list{{/paper-button}}
+  {{/link-to}}
+  </div>
+</div>

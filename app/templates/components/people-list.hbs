@@ -1,7 +1,7 @@
 <h2>{{title}}</h2>
 
-<ul>
-  {{#each people as |person|}}
-    <li>{{person}}</li>
+<div style="width: 100%; text-align:left">
+  {{#each people as |person| }}
+    {{person-comp person=person }}
   {{/each}}
-</ul>
+</div>
